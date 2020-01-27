@@ -12,6 +12,8 @@ Getting Started:
 	3) 'N01412075_Project_3.py' - A file that contains the source code for the application.
 
 Below are few important things to note before using the application:
+
+
 	1) The three input files for Attributes (A.txt), Hard constraints (H.txt) and Preferences (T.txt) should always be present in the same directory as source code.
 	2) Do not edit the source code except for line numbers 18, 19, 20 wherein you can change the file names of the input files (make sure you place these files in the same directory as the source code) you want the program to read. 
 		23 > attribute_file_path = "A.txt"
@@ -26,9 +28,11 @@ Below are few important things to note before using the application:
 	9) If the updates from GUI fails, use the import files to add/update data, import and check results
 
 Pre-requisites:
+
 	1) Python 2.7 should be installed on the system on which the application will be used
 
 Running the tests:
+
 1) Execute the 'Project_3.py' file. It should open a GUI that will enable you to:
 	a) Import Attributes, Hard constraints and Preferences data from files using the menu option. This feature imports the data files from the source directory. You can either edit the data from GUI or update the files directly.
 	b) Add/update/delete Attributes, Hard constraints and Preferences data from GUI and save the data.
