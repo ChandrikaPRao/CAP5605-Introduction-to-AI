@@ -33,7 +33,7 @@ Pre-requisites:
 
 Running the tests:
 
-1) Execute the 'Project_3.py' file. It should open a GUI that will enable you to:
+	1) Execute the 'Project_3.py' file. It should open a GUI that will enable you to:
 	a) Import Attributes, Hard constraints and Preferences data from files using the menu option. This feature imports the data files from the source directory. You can either edit the data from GUI or update the files directly.
 	b) Add/update/delete Attributes, Hard constraints and Preferences data from GUI and save the data.
 	c) Find if there are feasible objects for the hard constraints defined.
