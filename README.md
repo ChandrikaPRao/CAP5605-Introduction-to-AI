@@ -1,5 +1,4 @@
 # CAP5605-Introduction-to-AI
-CAP5605-Introduction to AI
 This folder has projects I have worked on, as part of CAP5605 - Introduction to Artifical Intelligence coursework.
 
   1.  Project 1 - Python basics + Quick sort, Radix sort, binary seacrh, sequential search
