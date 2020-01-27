@@ -9,7 +9,7 @@ Getting Started:
 	This folder has 
 	1) Three .txt files (A.txt for Attributes, H.txt for Hard constraints, T.txt for Preference information) - These files can be edited and saved to provide input application using these files.
 	2) clasp.exe - A SAT solver that is used by the application to compute feasible objects for hard constraints and for checking if a truth assignment satisfies a formula. 
-	3) 'N01412075_Project_3.py' - A file that contains the source code for the application.
+	3) 'Project_3.py' - A file that contains the source code for the application.
 
 Below are few important things to note before using the application:
 
