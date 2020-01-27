@@ -4,7 +4,7 @@ Knowledge-based intelligent system:
 	This system also recommends the optimal model based on user preferences.
 
 Getting Started:
-	Download the "Rao_Project3" folder to a local drive. 
+	Download the "Project3" folder to a local drive. 
 	
 	This folder has 
 	1) Three .txt files (A.txt for Attributes, H.txt for Hard constraints, T.txt for Preference information) - These files can be edited and saved to provide input application using these files.
