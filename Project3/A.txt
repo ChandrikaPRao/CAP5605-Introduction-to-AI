@@ -1,0 +1,8 @@
+appetizer: soup, salad
+entree: beef, fish
+drink: beer, wine
+dessert: cake, ice-cream
+cost: high, low
+reviews: good, bad
+cusine: french, italian
+distance: near, far

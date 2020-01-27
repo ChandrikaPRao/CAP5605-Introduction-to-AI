@@ -1,0 +1,6 @@
+soup OR beer
+soup OR fish
+near OR italian
+NOT bad AND NOT far
+NOT high AND NOT bad
+NOT beef AND NOT french

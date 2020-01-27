@@ -1,0 +1,6 @@
+soup OR beer, 10
+soup OR fish, 2
+ice-cream AND italian, 8
+cake AND italian, 5
+NOT high AND NOT bad, 10
+NOT fish AND NOT italian, 12

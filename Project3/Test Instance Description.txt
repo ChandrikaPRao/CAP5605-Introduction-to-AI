@@ -1,0 +1,164 @@
+The attributes, hard constraints and preferences files used for each test scenario is listed below:
+
+Test Scenario: 1
+Show feasible models when 2 models exist, exemplification with strict preference, optimization and omni-optimization.
+
+Attributes File
+---------------
+appetizer: soup, salad
+entree: beef, fish
+drink: beer, wine
+dessert: cake, ice-cream
+cost: high, low
+reviews: good, bad
+cusine: french, italian
+distance: near, far
+
+Hard Constraints File
+---------------------
+soup AND beer
+soup AND fish
+near AND italian
+NOT bad AND NOT far
+NOT high AND NOT bad
+NOT beef AND NOT french
+
+Preferences File
+----------------
+soup OR beer, 10
+soup OR fish, 2
+ice-cream AND italian, 8
+cake AND italian, 5
+NOT high AND NOT bad, 10
+NOT fish AND NOT italian, 12
+
+Test Scenario: 2
+Show feasible models when 2 models exist, exemplification with equal preference, optimization and omni-optimization.
+
+Attributes File
+---------------
+appetizer: soup, salad
+entree: beef, fish
+drink: beer, wine
+dessert: cake, ice-cream
+cost: high, low
+reviews: good, bad
+cusine: french, italian
+distance: near, far
+
+Hard Constraints File
+---------------------
+soup AND beer
+soup AND fish
+near AND italian
+NOT bad AND NOT far
+NOT high AND NOT bad
+NOT beef AND NOT french
+
+Preferences File
+----------------
+soup OR beer, 10
+soup OR fish, 2
+ice-cream AND italian, 8
+cake AND italian, 8
+NOT high AND NOT bad, 10
+NOT fish AND NOT italian, 12
+
+Test Scenario: 3
+Show feasible models when zero models exist with the specified hard constraints.
+
+Attributes File
+---------------
+appetizer: soup, salad
+entree: beef, fish
+drink: beer, wine
+dessert: cake, ice-cream
+cost: high, low
+reviews: good, bad
+cusine: french, italian
+distance: near, far
+
+Hard Constraints File
+---------------------
+soup AND beer
+soup AND fish
+near AND italian
+NOT bad AND NOT far
+NOT high AND NOT bad
+NOT beef AND NOT french
+soup AND beef
+
+Preferences File
+----------------
+soup OR beer, 10
+soup OR fish, 2
+ice-cream AND italian, 8
+cake AND italian, 5
+NOT high AND NOT bad, 10
+NOT fish AND NOT italian, 12
+
+Test Scenario: 4
+Show feasible models when only 1 feasible model exists with the specified hard constraints.
+
+Attributes File
+---------------
+appetizer: soup, salad
+entree: beef, fish
+drink: beer, wine
+dessert: cake, ice-cream
+cost: high, low
+reviews: good, bad
+cusine: french, italian
+distance: near, far
+
+Hard Constraints File
+---------------------
+soup AND beer
+soup AND fish
+near AND italian
+NOT bad AND NOT far
+NOT high AND NOT bad
+NOT beef AND NOT french
+low AND cake
+
+Preferences File
+----------------
+soup OR beer, 10
+soup OR fish, 2
+ice-cream AND italian, 8
+cake AND italian, 5
+NOT high AND NOT bad, 10
+NOT fish AND NOT italian, 12
+
+Test Scenario: 5
+Show feasible models when more than 2 feasible models exist with the specified hard constraints.
+
+Attributes File
+---------------
+appetizer: soup, salad
+entree: beef, fish
+drink: beer, wine
+dessert: cake, ice-cream
+cost: high, low
+reviews: good, bad
+cusine: french, italian
+distance: near, far
+
+Hard Constraints File
+---------------------
+soup OR beer
+soup OR fish
+near OR italian
+NOT bad AND NOT far
+NOT high AND NOT bad
+NOT beef AND NOT french
+
+
+Preferences File
+----------------
+soup OR beer, 10
+soup OR fish, 2
+ice-cream AND italian, 8
+cake AND italian, 5
+NOT high AND NOT bad, 10
+NOT fish AND NOT italian, 12
